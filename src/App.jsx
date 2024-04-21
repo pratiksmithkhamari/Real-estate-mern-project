@@ -5,6 +5,7 @@ import About from './components/pages/About'
 import Signin from './components/pages/Signin.jsx'
 import Header from './components/Header'
 import Home from './components/pages/Home.jsx'
+import Signup from './components/pages/Signup.jsx'
 function App() {
 
   return (
@@ -14,6 +15,7 @@ function App() {
       <Routes> 
       <Route path='/' element ={<Home />} />
         <Route path='/about' element ={<About />} />
+        <Route path='/sign-up' element ={<Signup />} />
         <Route path='/sign-in' element ={<Signin />} />
       </Routes>
       </BrowserRouter>

@@ -9,7 +9,14 @@ Currently, two official plugins are available:
 
 After that install tailwincss for UI styling
 here you found how to install tailwindcss with vite react
--[@tailwincss](https://tailwindcss.com/docs/guides/vite)
+- [@tailwincss](https://tailwindcss.com/docs/guides/vite)
 
+Now install react-router-dom for navigate all pages :
 
+- create Header component first 
 
+For hashed password in database==
+
+- install bcrypt (npm i bcrypt)
+- then bcrypt.hash()
+- inside that it take two parameter one is the password and the salt which is adding random integers and strings to a password before hashing it....

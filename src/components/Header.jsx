@@ -8,8 +8,8 @@ const Header = () => {
         <div>
        <Link to={'/'}> <h2 className='capitalize text-slate-800 text-2xl font-bold cursor-pointer'>SaftyLand</h2></Link>
         </div>
-        <div className='bg-white h-11 rounded-2xl p-4 flex items-center'>
-            <input  type="text" className='w-22 sm:w-72 bg-transparent outline-none' placeholder='search here' />
+        <div className='bg-slate-100 h-11 rounded-2xl p-4 flex items-center'>
+            <input  type="text" className='w-20 sm:w-72 bg-transparent outline-none' placeholder='search here' />
             <CiSearch className='text-[23px]'/>
         </div>
         <div>
